@@ -1,0 +1,34 @@
+.weather-page {
+  min-height: 100vh; /* full height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background 0.5s ease;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.6);
+}
+
+.sunny {
+  background-image: url("../assets/sunny.jpg");
+}
+
+.rainy {
+  background-image: url("../assets/rainy.jpg");
+}
+
+.snowy {
+  background-image: url("../assets/snowy.jpg");
+}
+
+.cloudy {
+  background-image: url("../assets/cloudy.jpg");
+}

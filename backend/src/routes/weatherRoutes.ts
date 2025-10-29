@@ -1,4 +1,3 @@
-// src/routes/weatherRoutes.ts
 import { Router } from "express";
 import { getWeather } from "../controllers/weatherController";
 
