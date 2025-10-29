@@ -35,32 +35,7 @@ Users can enter a city name and get current weather information including temper
 
 
 
-backend/
-├─ src/
-│ ├─ config/env.ts
-│ ├─ controller/weatherController.ts
-│ ├─ middleware/errorHandler.ts  
-│ ├─ routes/weatherRoutes.ts 
-│ ├─ services/weatherService.ts
-│ ├─ types/weather.ts
-│ ├─ utils/cache.ts 
-│ └─ server.ts
-frontend/
-├─ src/
-│ ├─ api/weatherApi.js
-│ ├─ config/index.jsx
-│ ├─ features/
-│     ├─ components/
-│       ├─ WeatherCard.tsx
-│       ├─ WeatherForm.tsx
-│     ├─ pages/WeatherPage.tsx
-│  ├─ shared/
-│      ├─ hook/useWeatherStyle.ts│
-│      ├─ types/weather.ts
-│  ├─ stores/weatherStore.ts
-│  ├─ components/Weather.jsx
-│  ├─ App.tsx
-│  └─ main.tsx
+<pre> ```text backend/ └─ src/ ├─ config/ │ └─ env.ts ├─ controllers/ │ └─ weatherController.ts ├─ middleware/ │ └─ errorHandler.ts ├─ routes/ │ └─ weatherRoutes.ts ├─ services/ │ └─ weatherService.ts ├─ types/ │ └─ weather.ts ├─ utils/ │ └─ cache.ts └─ server.ts frontend/ └─ src/ ├─ api/ │ └─ weatherApi.js ├─ config/ │ └─ index.jsx ├─ features/ │ ├─ components/ │ │ ├─ WeatherCard.tsx │ │ ├─ WeatherForm.tsx │ │ └─ Weather.jsx │ └─ pages/ │ └─ WeatherPage.tsx ├─ shared/ │ ├─ hook/ │ │ └─ useWeatherStyle.ts │ └─ types/ │ └─ weather.ts ├─ stores/ │ └─ weatherStore.ts ├─ App.tsx └─ main.tsx ``` </pre>
 ---
 
 ## Setup & Usage
